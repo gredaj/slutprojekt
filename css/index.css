@@ -1,5 +1,6 @@
 html{
     background-color: PaleVioletRed;
+    scroll-behavior: smooth;
   }
   .header {
     padding: 140px ;
@@ -9,13 +10,13 @@ html{
     text-shadow: 2px 2px 10px black;
     background-image: url("../img/hemsida.jpg");
     background-position: center;
-    background-size: cover;
-    height: 300%;
-   
+    background-size: cover;  
   }
+
+  
   * {box-sizing: border-box}
   
-  /* Set height of body and the document to 100% */
+  
   body, html {
     height: 100%;
     margin: auto;
@@ -32,7 +33,6 @@ html{
   
   #navbar {
     background-color: #333;
-    position: center;
     top: 0;
     width: 100%;
     display: block;
@@ -68,3 +68,7 @@ html{
     margin: 0;
   }
   
+img{
+  height: max-content;
+  width: max-content;
+}
